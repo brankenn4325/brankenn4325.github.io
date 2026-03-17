@@ -31,8 +31,9 @@ You can do links with [Link Text](https://www.url.com)
 
 You can do images somehow I forgojust look it up
 
-and three underscores for a horizontal line:
+![Alt text](/assets/img/crepe.jpg)
 
+and three underscores for a horizontal line:
 ___
 
 Finally, if there's anything cool or artsy or custom that you have a vision for, let me know and I can do all sorts of fun shapes and colors, text alignment, tables, buttons, etc.
