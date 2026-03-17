@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Platform
-subtitle: How I'll Make a Difference as Your Representative
+subtitle: How I'll Make a Difference as Your Secretary of Local Impact
 ---
 
 **I will…**
