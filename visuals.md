@@ -7,4 +7,4 @@ subtitle: Look at these!
 
 ![Alt text](/assets/img/mainsgaposterqrcode.jpeg)
 
-<img src="/assets/img/coolppl.jpg" width="300" height="350" />
+<img src="/assets/img/coolppl.jpg" width="400" height="500" />
