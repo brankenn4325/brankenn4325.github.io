@@ -20,3 +20,53 @@ subtitle: How I'll Make a Difference as Your Secretary of Local Impact
 
 ___
 
+<style>
+    .bg {
+        width: 100vw;
+        aspect-ratio: 1325/2048;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: -15vh;
+        z-index: -10;
+
+        background-image: url("/assets/img/borders.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        /*background-color: rgb(224, 232, 224);*/
+
+    }
+
+    
+    @media (max-width: 560px) {
+        .bg {
+            display: none;
+        }
+    }
+</style>
+<div class="bg" id="bg">
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    
+var layer = document.getElementById("bg");
+
+var y = 0;
+
+var h = window.innerHeight;
+var lastpos = 0;
+
+function animate(event) {
+    var dir = lastpos - event.touches[0].clientY;
+    lastpos = event.touches[0].clientY;
+	
+
+	y -= .2*dir;
+	y = Math.min(y, 0);
+	y = Math.max(y, h - layer.clientHeight);
+	layer.style.top = y+"px";
+}
+window.addEventListener('wheel', animate);
+});
+</script>
