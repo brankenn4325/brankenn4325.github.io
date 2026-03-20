@@ -21,10 +21,10 @@ author: DE
 
 navbar-links:
   Platform: "platform"
-  See More:
-    - Vote: "https://www.antiimperialismreading.club"
-    - SGA's Website: "https://www.antiimperialismreading.club"
   Visuals: "visuals"
+  SGA's Website: "https://wp.stolaf.edu/sga/elections/"
+   # - Vote: "https://www.antiimperialismreading.club"
+
 ################
 # --- Logo --- #
 ################
