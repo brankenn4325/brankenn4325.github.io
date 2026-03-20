@@ -5,16 +5,47 @@ layout: page
 <style>
     .bg {
         width: 100vw;
-        height: 100vh;
+        aspect-ratio: 1920/800;
         position: fixed;
         margin: 0;
         padding: 0;
         left: 0;
-        top: 0;
+        top: 7vh;
         z-index: -10;
 
-        background-color: rgb(224, 232, 224);
+        background-image: url("/assets/img/kenna_banner.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        /*background-color: rgb(224, 232, 224);*/
 
+    }
+    .graphic1, .graphic2, .graphic3 {
+        display: none;
+    }
+
+    
+    @media (max-width: 560px) {
+        .bg {
+            display: none;
+        }
+
+        .graphic1,.graphic2,.graphic3 {
+            display: flex;
+            width: 85vw;
+            aspect-ratio: 1;
+            justify-self: center;
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+        .graphic1 {
+            background-image: url("/assets/img/graphic1.png");
+        }
+        .graphic2 {
+            background-image: url("/assets/img/graphic3.jpg");
+        }
+        .graphic3 {
+            background-image: url("/assets/img/graphic3.jpg");
+        }
     }
 </style>
 <div class="bg">
